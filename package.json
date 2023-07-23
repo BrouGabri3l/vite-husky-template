@@ -16,7 +16,7 @@
     },
     "lint-staged": {
         "*.{js,ts,tsx,jsx}": "eslint --fix ",
-        "**/*": "prettier --cache --write"
+        "**/*.{js,ts,tsx,jsx,md,json,html}": "prettier --cache --write"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.6.7",
